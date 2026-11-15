@@ -1,0 +1,14 @@
+[
+  {"id": "KB-001", "titulo": "Como redefinir minha senha", "categoria": "Acesso", "tags": ["senha", "login", "bloqueado", "esqueci"],
+   "conteudo": "Acesse a tela de login e clique em 'Esqueci minha senha'. Informe seu e-mail corporativo e siga o link enviado (válido por 30 minutos). Se a conta estiver bloqueada após 5 tentativas, aguarde 15 minutos ou abra um chamado para desbloqueio."},
+  {"id": "KB-002", "titulo": "Relatório não atualiza no painel", "categoria": "Relatórios", "tags": ["dashboard", "painel", "atualização", "dados desatualizados", "power bi"],
+   "conteudo": "Os painéis são atualizados automaticamente às 6h e às 13h. Verifique a data de atualização no rodapé do relatório. Se estiver mais de 1 dia atrasado, limpe o cache do navegador (Ctrl+F5). Persistindo, abra um chamado informando o nome do painel e um print."},
+  {"id": "KB-003", "titulo": "Importar planilha de lançamentos manuais", "categoria": "Lançamentos", "tags": ["importar", "planilha", "excel", "lançamento", "erro de importação"],
+   "conteudo": "Baixe o modelo de planilha na tela de Lançamentos > Importar. Não altere o nome das colunas. Datas no formato dd/mm/aaaa e valores sem símbolo de moeda. O sistema rejeita linhas com centro de custo inexistente: confira o código na aba de cadastros."},
+  {"id": "KB-004", "titulo": "Criar um novo usuário", "categoria": "Acesso", "tags": ["usuário", "cadastro", "permissão", "novo colaborador"],
+   "conteudo": "Somente administradores podem criar usuários em Configurações > Usuários > Novo. Defina o perfil de acesso (Leitor, Editor ou Administrador). O convite chega por e-mail e expira em 7 dias."},
+  {"id": "KB-005", "titulo": "Exportar dados para Excel", "categoria": "Relatórios", "tags": ["exportar", "excel", "csv", "download"],
+   "conteudo": "Em qualquer tabela, clique nos três pontos > Exportar dados. Escolha 'dados resumidos' para manter os filtros aplicados ou 'dados subjacentes' para todas as linhas. O limite é de 150 mil linhas por exportação."},
+  {"id": "KB-006", "titulo": "Sistema lento ou fora do ar", "categoria": "Infraestrutura", "tags": ["lento", "fora do ar", "indisponível", "erro 500", "timeout"],
+   "conteudo": "Confira a página de status do sistema. Se houver incidente aberto, acompanhe por lá. Caso contrário, teste em outro navegador e em aba anônima. Se o erro continuar, abra um chamado com horário, tela e mensagem de erro."}
+]
