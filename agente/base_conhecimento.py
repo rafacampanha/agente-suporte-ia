@@ -10,8 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 BASE_PADRAO = Path(__file__).resolve().parents[1] / "base" / "artigos.json"
-STOPWORDS = """a o as os de da do das dos e em no na nos nas um uma para por com sem que se meu minha
-nao não esta está estou ao aos é ser foi como qual quando onde porque mais muito já tem ter""".split()
+STOPWORDS = ["a", "o", "as", "os", "de", "da", "do", "das", "dos", "e", "em", "no", "na", "nos", "nas", "um", "uma", "para", "por", "com", "sem", "que", "se", "meu", "minha", "nao", "não", "esta", "está", "estou", "ao", "aos", "é", "ser", "foi", "como", "qual", "quando", "onde", "porque", "mais", "muito", "já", "tem", "ter"]
 
 
 def normalizar(txt: str) -> str:
