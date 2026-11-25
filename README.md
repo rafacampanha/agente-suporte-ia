@@ -1,5 +1,7 @@
 # 🤖 Agente de Suporte com IA (RAG + triagem)
 
+[![Testes](https://github.com/rafacampanha/agente-suporte-ia/actions/workflows/testes.yml/badge.svg)](https://github.com/rafacampanha/agente-suporte-ia/actions/workflows/testes.yml)
+
 Agente de **suporte técnico de 1º nível** que responde dúvidas com base numa **base de conhecimento**, decide a **prioridade** do caso e sabe a hora de **escalar para um humano**. Funciona offline (busca TF-IDF) e, com uma chave de API, usa um **LLM (Claude)** para redigir a resposta só com o que está nos artigos (RAG), sem inventar.
 
 > Versão genérica, com base de conhecimento fictícia, de um agente de suporte em que trabalho (integrado ao Jira Service Management). Nenhum dado real da empresa ou de clientes está aqui.
